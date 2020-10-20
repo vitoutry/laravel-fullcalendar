@@ -15,7 +15,7 @@ Or add the following to your composer.json's require section and `composer updat
 
 ```json
 "require": {
-	"vitoutry/laravel-fullcalendar": "~1.0"
+	"vitoutry/laravel-fullcalendar": "~1.1"
 }
 ```
 
@@ -247,4 +247,4 @@ This will generate (in February 2015):
 ![](http://i.imgur.com/qjgVhCY.png)
 
 
-credit : MaddHatter
+credit : MaddHatter 
