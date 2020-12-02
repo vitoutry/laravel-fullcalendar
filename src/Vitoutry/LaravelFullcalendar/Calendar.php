@@ -29,12 +29,16 @@ class Calendar
      * @var array
      */
     protected $defaultOptions = [
-        'header' => [
-            'left' => 'prev,next today',
+        'headerToolbar' => [
+            'left' => 'prevYear,prev,next,nextYear today',
             'center' => 'title',
-            'right' => 'month,agendaWeek,agendaDay',
+            'right' => 'dayGridMonth,dayGridWeek,dayGridDay',
         ],
         'eventLimit' => true,
+    //     'initialDate'=> '2020-09-12',
+        'navLinks'=> true, // can click day/week names to navigate views
+      'editable'=> true,
+      'dayMaxEvents'=> true,
     ];
 
     /**
